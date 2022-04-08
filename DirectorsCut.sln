@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server (Swarm)", "DirectorsCutEngine\game\server\swarm_sdk_server.vcxproj", "{A26C0361-6B09-9E3D-5194-C9CB89243710}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client (Swarm)", "DirectorsCutEngine\game\client\swarm_sdk_client.vcxproj", "{4D2B2013-2B4E-4EB1-B686-5BD11CF1FB80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MissionChooser", "DirectorsCutEngine\game\missionchooser\swarm_sdk_missionchooser.vcxproj", "{935E753E-5B5A-4A9B-88DC-E12748737A59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{85F5EDBA-A463-4066-83B0-A64CE94C4FFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{B1A3D4CB-B147-4056-BC02-B7069A26A6FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectorsCutTool", "DirectorsCutTool\DirectorsCutTool.csproj", "{8196289A-4C75-49EC-895D-E3B42CB7F267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed = Debug|Mixed
+		Release|Mixed = Release|Mixed
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A26C0361-6B09-9E3D-5194-C9CB89243710}.Debug|Mixed.ActiveCfg = Debug|Win32
+		{A26C0361-6B09-9E3D-5194-C9CB89243710}.Debug|Mixed.Build.0 = Debug|Win32
+		{A26C0361-6B09-9E3D-5194-C9CB89243710}.Release|Mixed.ActiveCfg = Release|Win32
+		{A26C0361-6B09-9E3D-5194-C9CB89243710}.Release|Mixed.Build.0 = Release|Win32
+		{4D2B2013-2B4E-4EB1-B686-5BD11CF1FB80}.Debug|Mixed.ActiveCfg = Debug|Win32
+		{4D2B2013-2B4E-4EB1-B686-5BD11CF1FB80}.Debug|Mixed.Build.0 = Debug|Win32
+		{4D2B2013-2B4E-4EB1-B686-5BD11CF1FB80}.Release|Mixed.ActiveCfg = Release|Win32
+		{4D2B2013-2B4E-4EB1-B686-5BD11CF1FB80}.Release|Mixed.Build.0 = Release|Win32
+		{935E753E-5B5A-4A9B-88DC-E12748737A59}.Debug|Mixed.ActiveCfg = Debug|Win32
+		{935E753E-5B5A-4A9B-88DC-E12748737A59}.Debug|Mixed.Build.0 = Debug|Win32
+		{935E753E-5B5A-4A9B-88DC-E12748737A59}.Release|Mixed.ActiveCfg = Release|Win32
+		{935E753E-5B5A-4A9B-88DC-E12748737A59}.Release|Mixed.Build.0 = Release|Win32
+		{8196289A-4C75-49EC-895D-E3B42CB7F267}.Debug|Mixed.ActiveCfg = Debug|x64
+		{8196289A-4C75-49EC-895D-E3B42CB7F267}.Debug|Mixed.Build.0 = Debug|x64
+		{8196289A-4C75-49EC-895D-E3B42CB7F267}.Release|Mixed.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A26C0361-6B09-9E3D-5194-C9CB89243710} = {85F5EDBA-A463-4066-83B0-A64CE94C4FFF}
+		{4D2B2013-2B4E-4EB1-B686-5BD11CF1FB80} = {85F5EDBA-A463-4066-83B0-A64CE94C4FFF}
+		{935E753E-5B5A-4A9B-88DC-E12748737A59} = {85F5EDBA-A463-4066-83B0-A64CE94C4FFF}
+		{8196289A-4C75-49EC-895D-E3B42CB7F267} = {B1A3D4CB-B147-4056-BC02-B7069A26A6FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9D11323-6FFF-463D-807E-97D8688E25F3}
+	EndGlobalSection
+EndGlobal
